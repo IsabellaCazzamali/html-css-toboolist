@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --button-blue: #47adf1;
+    --tag-blue: #45abea;
+    --text-black: #000000;
+    --tag-purple: #9c72e4;
+    --tag-green: #64c0a9;
+    --tag-orange: #f29e33;
+    --tag-pink: #d863a1;
+    --tag-light-green: #b0c926;
+}
+
