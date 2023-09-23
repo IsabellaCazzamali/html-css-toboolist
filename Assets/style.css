@@ -89,12 +89,26 @@ section{
     font-size: 1rem;
 }
 
+li{
+    list-style: none;
+    margin: 15px;
+}
+
+li:before{
+    content: "\2713";
+    color: var(--check-mark);
+    background-color: var(--background-main);
+    border-radius: 50%;
+    border-color: var(--check-mark);
+}
+
+
 .tag_blue{
     background-color: var(--tag-blue);
     color: var(--background-main);
     font-style: none;
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 ul li::before {
