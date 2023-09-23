@@ -9,6 +9,8 @@
     --background-body: #f6f8f9;
     --background-main: #ffffff;
     --button-blue: #47adf1;
+    --check-mark: #6bc3ae;
+    --cross-mark: #eb5952;
     --text-button: #c9cfd4;
     --tag-blue: #45abea;
     --text-black: #000000;
@@ -76,4 +78,26 @@ h1{
 .divider_line{
     color: var(--background-body);
     padding-top: 5px;
+}
+
+section{
+    margin: 30px;
+}
+
+.list_title{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.tag_blue{
+    background-color: var(--tag-blue);
+    color: var(--background-main);
+    font-style: none;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+ul li::before {
+    content: '\2713';
+    color: var(--check-mark);
 }
