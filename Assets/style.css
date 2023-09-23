@@ -6,6 +6,8 @@
 }
 
 :root {
+    --background-body: #f6f8f9;
+    --background-main: #ffffff;
     --button-blue: #47adf1;
     --tag-blue: #45abea;
     --text-black: #000000;
@@ -15,4 +17,16 @@
     --tag-pink: #d863a1;
     --tag-light-green: #b0c926;
 }
+
+
+.debug header {
+    background-color: red;
+    height: 50px;
+}
+
+.debug section{
+    background-color: green;
+    height: 400px;
+}
+
 
