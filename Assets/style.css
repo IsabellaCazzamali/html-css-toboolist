@@ -9,6 +9,7 @@
     --background-body: #f6f8f9;
     --background-main: #ffffff;
     --button-blue: #47adf1;
+    --text-button: #c9cfd4;
     --tag-blue: #45abea;
     --text-black: #000000;
     --tag-purple: #9c72e4;
@@ -32,11 +33,12 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 5px;
-    line-height: 80px;
+ /*    line-height: 100px; */
 }
 
 .logo{
     padding-top: 10px;
+    vertical-align: bottom;
 }
 
 h1{
@@ -55,4 +57,23 @@ h1{
     border-radius: 1%;
 }
 
+.blue_button{
+    color: var(--background-main);
+    background-color: var(--button-blue);
+    border: none;
+    width: 60px;
+    border-radius: 5%;
+}
 
+.transparent_button{
+    color: var(--text-button);
+    background-color: var(--background-main);
+    border-color: var(--text-button);
+    border-style: solid;
+    border-radius: 5%;
+}
+
+.divider_line{
+    color: var(--background-body);
+    padding-top: 5px;
+}
