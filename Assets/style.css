@@ -18,15 +18,41 @@
     --tag-light-green: #b0c926;
 }
 
-
-.debug header {
-    background-color: red;
-    height: 50px;
+body{
+    background-color: var(--background-body);
 }
 
-.debug section{
-    background-color: green;
-    height: 400px;
+#site_header {
+    background-color: var(--background-main);
+    height: 80px;
+}
+
+.title_header{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    line-height: 80px;
+}
+
+.logo{
+    padding-top: 10px;
+}
+
+h1{
+    font-weight: 700;
+    display: inline-block;
+    font-size: 2em;
+}
+
+#site_main {
+    background-color: var(--background-main);
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 1%;
 }
 
 
