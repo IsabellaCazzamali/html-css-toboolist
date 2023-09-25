@@ -25,7 +25,6 @@ body{
     background-color: var(--background-body);
 }
 
-
 #site_header{
     line-height: 80px;
     background-color: var(--background-main);
@@ -44,22 +43,33 @@ h1{
     line-height: 80px;
 }
 
-#site_main {
+.sub_header{
     background-color: var(--background-main);
     width: 1000px;
-    height: 800px;
-    margin: auto;
+    height: 55px;
+    margin: 0 auto;
+    margin-bottom: 1px;
     margin-top: 50px;
-    margin-bottom: 20px;
-    border-radius: 1%;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 1%;
 }
+
+/* header{
+    height: 50px;
+} */
 
 .blue_button{
     color: var(--background-main);
+    font-weight: 400;
+    font-size: 12px;
     background-color: var(--button-blue);
+    height: 30px;
+    width: 80px;
     border: none;
-    width: 60px;
-    border-radius: 5%;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 15px;
+    margin-right: 5px;
 }
 
 .transparent_button{
@@ -67,12 +77,23 @@ h1{
     background-color: var(--background-main);
     border-color: var(--text-button);
     border-style: solid;
+    font-weight: 400;
+    font-size: 12px;
     border-radius: 5%;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
 }
 
-.divider_line{
-    color: var(--background-body);
-    padding-top: 5px;
+#site_main {
+    background-color: var(--background-main);
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 1%;
 }
 
 section{
@@ -99,8 +120,15 @@ section{
 }
 
 .tag.blue{
+    width: 60px;
+    height: 20px;
     background-color: var(--tag-blue);
     color: var(--background-main);
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    display: inline-block;
 }
 
 .list_title{
@@ -113,13 +141,13 @@ li{
     margin: 15px;
 }
 
-li:before{
+/* li:before{
     content: "\2713";
     color: var(--check-mark);
     background-color: var(--background-main);
     border-radius: 50%;
     border-color: var(--check-mark);
-}
+} */
 
 /* 
 .tag_blue{
