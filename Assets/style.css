@@ -25,28 +25,23 @@ body{
     background-color: var(--background-body);
 }
 
-#site_header {
-    background-color: var(--background-main);
-    height: 80px;
-}
 
-.title_header{
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 5px;
- /*    line-height: 100px; */
+#site_header{
+    line-height: 80px;
+    background-color: var(--background-main);
 }
 
 .logo{
-    padding-top: 10px;
-    vertical-align: bottom;
+    margin-left: 20px;
+    vertical-align: middle;
 }
 
 h1{
     font-weight: 700;
     display: inline-block;
     font-size: 2em;
+    vertical-align: middle;
+    line-height: 80px;
 }
 
 #site_main {
@@ -84,6 +79,30 @@ section{
     margin: 30px;
 }
 
+.circle{
+    width: 10px;
+    height: 10px;
+    background: var(--background-main);
+    border: 1px solid var(--check-mark);
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+}
+
+.tag{
+    background-color: red;
+    padding: .6rem 0;
+    border-radius: 1rem;
+    text-align: center;
+    font-style: none;
+    font-size: 1rem;
+}
+
+.tag.blue{
+    background-color: var(--tag-blue);
+    color: var(--background-main);
+}
+
 .list_title{
     font-weight: 700;
     font-size: 1rem;
@@ -102,16 +121,16 @@ li:before{
     border-color: var(--check-mark);
 }
 
-
+/* 
 .tag_blue{
     background-color: var(--tag-blue);
     color: var(--background-main);
     font-style: none;
     font-size: 1rem;
     font-weight: 700;
-}
+} */
 
-ul li::before {
+/* ul li::before {
     content: '\2713';
     color: var(--check-mark);
-}
+} */
