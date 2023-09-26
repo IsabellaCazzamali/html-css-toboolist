@@ -90,24 +90,34 @@ h1{
     width: 1000px;
     height: 800px;
     margin: auto;
-    margin-top: 1px;
+    margin-top: 3px;
     margin-bottom: 20px;
     border-bottom-left-radius: 1%;
     border-bottom-right-radius: 1%;
 }
 
-section{
-    margin: 30px;
+.list_title{
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 40px;
 }
 
-.circle{
-    width: 10px;
-    height: 10px;
-    background: var(--background-main);
+.check{
+    width: 20px;
+    height: 20px;
+    background-color: var(--background-main);
     border: 1px solid var(--check-mark);
     border-radius: 50%;
+    color: var(--check-mark);
     text-align: center;
-    position: absolute;
+    vertical-align: middle;
+    margin-right: 5px;
+
+}
+
+.list_item{
+    display: inline-block;
+    margin-left: 70px;
 }
 
 .tag{
