@@ -48,7 +48,6 @@ h1{
 #site_main {
     background-color: var(--background-main);
     width: 1000px;
-    height: 800px;
     margin: auto;
     margin-top: 3px;
     margin-bottom: 20px;
@@ -91,19 +90,6 @@ h1{
     padding: 20px 50px;
 }
 
-/* .check{
-    width: 20px;
-    height: 20px;
-    background-color: var(--background-main);
-    border: 1px solid var(--check-mark);
-    border-radius: 50%;
-    color: var(--check-mark);
-    text-align: center;
-    vertical-align: middle;
-    margin-right: 5px; */
-
-}
-
 ul{
     list-style: none;
 }
@@ -112,7 +98,6 @@ li{
     list-style: none;
     padding: 10px 0;
 }
-
 
 li .circle::before{
     display: inline-block;
@@ -132,7 +117,7 @@ li .circle.check::before{
 }
 
 li .circle.cross::before {
-    content: '\2573';
+    content: '\2717';
     border: 1px solid var(--cross-mark);
     color: var(--cross-mark);
 }
@@ -153,31 +138,15 @@ li .circle.cross::before {
     background-color: var(--tag-blue);
 }
 
-/* .list_title{
-    font-weight: 700;
-    font-size: 1rem;
-} */
+.tag_purple{
+    background-color: var(--tag-purple);
+}
 
+.tag_green{
+    background-color: var(--tag-green);
+}
 
+.tag_orange{
+    background-color: var(--tag-orange);
+}
 
-/* li:before{
-    content: "\2713";
-    color: var(--check-mark);
-    background-color: var(--background-main);
-    border-radius: 50%;
-    border-color: var(--check-mark);
-} */
-
-/* 
-.tag_blue{
-    background-color: var(--tag-blue);
-    color: var(--background-main);
-    font-style: none;
-    font-size: 1rem;
-    font-weight: 700;
-} */
-
-/* ul li::before {
-    content: '\2713';
-    color: var(--check-mark);
-} */
