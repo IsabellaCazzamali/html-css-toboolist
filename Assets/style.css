@@ -51,8 +51,7 @@ h1{
     margin: auto;
     margin-top: 3px;
     margin-bottom: 20px;
-    border-bottom-left-radius: 1%;
-    border-bottom-right-radius: 1%;
+    border-radius: 1%;
 }
 
 .top{
@@ -150,3 +149,6 @@ li .circle.cross::before {
     background-color: var(--tag-orange);
 }
 
+.tag_light_green{
+    background-color: var(--tag-light-green);
+}
